@@ -1,4 +1,7 @@
 base:
     '*':
-        - webserver
-        - dbserver
+        - base
+        - apache
+        - mysql.client
+        - mysql.server
+        - mysql.remove_test_database
